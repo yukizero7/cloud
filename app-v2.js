@@ -7,29 +7,29 @@
  */
 // 在head 中 加载 必要静态
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/css/mdui.min.css">'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/css/mdui.min.css">'
 );
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0@1.1.2/css/nexmoe.min.css">'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1@1.1.2/css/nexmoe.min.css">'
 );
 // markdown支持
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/markdown-it.min.js"></script>'
+  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/markdown-it.min.js"></script>'
 );
 document.write(
   "<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>*{padding:0 6px;margin:0 2px}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1}</style>"
 );
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/css/DPlayer.min.css">'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/css/DPlayer.min.css">'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/DPlayer.min.js"></script>'
+  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/DPlayer.min.js"></script>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/hls.min.js"></script>'
+  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/hls.min.js"></script>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/flv.min.js"></script>'
+  '<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/flv.min.js"></script>'
 );
 
 // 初始化页面，并载入必要资源
@@ -39,7 +39,7 @@ function init() {
   var html = `
 <header class="nexmoe-nav">
     <div class="navSize">
-			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/yukizero7/resource@4.0/avatar.jpg"/></a>
+			<a href="/"><img class="avatar" src="https://i.loli.net/2020/04/24/wCxMZFtiv6aKmQ1.png"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
 					<li class="menu_li"><a href="https://yukizero.cn/" target="_blank">博客</a></li>
@@ -275,8 +275,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.0/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/yukizero7/cloud@1.1/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
 
